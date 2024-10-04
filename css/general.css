@@ -290,3 +290,12 @@ body {
 strong {
   font-weight: 500;
 }
+
+.section {
+  transition: all 0.5s;
+}
+
+.section--hidden {
+  transform: translateX(-20rem);
+  opacity: 0;
+}
